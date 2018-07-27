@@ -426,7 +426,7 @@ public class Launcher extends Activity
         mPaused = false;
 
         setContentView(R.layout.launcher);
-
+        Log.d("tag", "==launcher====");
         setupViews();
         mDeviceProfile.layout(this, false /* notifyListeners */);
         mExtractedColors = new ExtractedColors();
